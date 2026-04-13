@@ -9,6 +9,9 @@ app.get("/", (req, res) => {
     status: "running",
     updated:
       "CI`/CD pipeline updated successfully on 2024-06-01 at 12:00 PM UTC",
+      name: "CI/CD Pipeline Demo App",
+      author: "Nouman Shabeer",
+      tech: "Node.js, Express, Docker, CI/CD",
   });
 });
 
