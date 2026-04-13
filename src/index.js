@@ -6,7 +6,8 @@ app.get('/', (req, res) => {
   res.json({
     message: 'Hello from Node.js App!',
     version: '1.0.0',
-    status: 'running'
+    status: 'running',
+    updated: "CI`/CD pipeline updated successfully"
   });
 });
 
