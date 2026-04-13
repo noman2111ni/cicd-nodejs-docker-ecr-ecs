@@ -66,7 +66,7 @@ jobs:
       - name: Deploy to ECS
         run: |
           aws ecs update-service \
-          --cluster cicd-cluster \
-          --service cicd-service \
+          --cluster my-cluster \
+          --service my-service \
           --force-new-deployment
           echo "Deployment successful"
