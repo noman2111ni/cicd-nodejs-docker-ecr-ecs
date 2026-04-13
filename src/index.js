@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
     message: 'Hello from Node.js App!',
     version: '1.0.0',
     status: 'running',
-    updated: "CI`/CD pipeline updated successfully"
+    updated: "CI`/CD pipeline updated successfully on 2024-06-01 at 12:00 PM UTC"
   });
 });
 
